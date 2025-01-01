@@ -1,0 +1,43 @@
+{
+  "emulators": {
+    "dataconnect": {
+      "dataDir": "dataconnect/.dataconnect/pgliteData"
+    }
+  },
+  "dataconnect": {
+    "source": "dataconnect"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "budget-planner-63ef4",
+          "appId": "1:236294665823:android:ea1691936619749f01cdea",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "budget-planner-63ef4",
+          "configurations": {
+            "android": "1:236294665823:android:ea1691936619749f01cdea",
+            "ios": "1:236294665823:ios:5c0ca2fa3cdb5f6601cdea",
+            "macos": "1:236294665823:ios:5c0ca2fa3cdb5f6601cdea",
+            "web": "1:236294665823:web:6fefd97cae5070f601cdea",
+            "windows": "1:236294665823:web:5bc4ea359d3f0b1c01cdea"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}
